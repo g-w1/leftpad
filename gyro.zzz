@@ -1,0 +1,11 @@
+pkgs:
+  leftpad:
+    version: 0.1.0
+    description: "pad strings to the left"
+    license: MIT
+    source_url: "https://github.com/g-w1/leftpad"
+
+    root: src/main.zig
+    files:
+      README.md
+      LICENSE
