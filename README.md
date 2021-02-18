@@ -3,7 +3,7 @@
 String pad left
 
 # Install
-`gyro add leftpad`
+`gyro add g-w1/leftpad`
 
 # Test
 `zig build test`
