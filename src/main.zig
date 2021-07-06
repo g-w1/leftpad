@@ -29,5 +29,5 @@ test "leftpad" {
 fn expectLeftPad(allocator: *Allocator, input: struct { str: []const u8, len: usize, ch: u8 }, output: []const u8) !void {
     const padded = try leftpad(allocator, input.str, input.len, input.ch);
     defer allocator.free(padded);
-    expectEqualSlices(u8, output, padded);
+    try expectEqualSlices(u8, output, padded);
 }
