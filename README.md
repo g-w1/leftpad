@@ -3,7 +3,7 @@
 String pad left
 
 # Install
-`gyro add g-w1/leftpad`
+`gyro add g-w1/leftpad` or add it to your projects `build.zig.zon`
 
 # Test
 `zig build test`
